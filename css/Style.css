@@ -1,0 +1,49 @@
+.body{
+    background-color: #333;
+    color:#ddd;
+}
+.navbar{
+    /*008ed6 */
+    border-bottom: 1px solid #008ed6;
+    
+
+}
+/* Home Section */
+#home-section{
+    background-image: url(../img/home1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+/*Home section but i am using home for some errors. I will solve later.*/
+#home-section .dark-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    background-color: rgba(0,0,0,0.7);
+
+}
+#home-section .dark-overlay .home-inner{
+    padding-top: 150px;
+}
+#home-section .dark-overlay .home-inner .card-form{
+    opacity:0.8;
+}
+#home-section .dark-overlay .home-inner .fas{
+    color:#008ed6;
+    background-color: #fff;
+    padding:5px;
+    border-radius: 5px;
+}
+
+/*Error is on above */
+
+#explore-section .fas{
+    color:#fff;
+    background-color: #333;
+    padding:5px;
+    border-radius: 5px;
+}
+
+
